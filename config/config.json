@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sw-redirect-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/swRedirect/SwRedirectWebPart.js",
+          "manifest": "./src/webparts/swRedirect/SwRedirectWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SwRedirectWebPartStrings": "lib/webparts/swRedirect/loc/{locale}.js"
+  }
+}
